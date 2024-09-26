@@ -5,9 +5,54 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizza Hot</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <!-- Header -->
+    <header>
+      <h1>Pizza Hot</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Fresh, Hot, and Delicious!</h2>
+      <p>Order your favorite pizza now!</p>
+      <button>Order Now</button>
+    </section>
+
+    <!-- Featured Pizzas -->
+    <section class="featured">
+      <h3>Our Best Pizzas</h3>
+      <div class="pizza-list">
+        <div class="pizza-item">
+          <img src="./public/images/Margherita.jpg" alt="Margherita Pizza" />
+          <h4>Margherita</h4>
+          <p>Classic Margherita with fresh basil and mozzarella.</p>
+        </div>
+        <div class="pizza-item">
+          <img src="./public/images/Pepperoni.jpg" alt="Pepperoni Pizza" />
+          <h4>Pepperoni</h4>
+          <p>Spicy pepperoni and melted cheese.</p>
+        </div>
+        <div class="pizza-item">
+          <img src="./public/images/Vegetable.jpg" alt="Veggie Pizza" />
+          <h4>Veggie</h4>
+          <p>A variety of fresh vegetables on a thin crust.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Pizza Hot. All rights reserved.</p>
+    </footer>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
